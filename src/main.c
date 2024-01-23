@@ -2,6 +2,8 @@
 #include <attributes.h>
 
 int main() {
-    printf("Hello World!\n");
+    #ifdef __linux__
+        get_linux_sys_info();
+    #endif
     return 0;
 }

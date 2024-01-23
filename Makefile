@@ -1,4 +1,4 @@
-CC     =  gcc
+CC     = gcc
 LIBS   = lib
 CFLAGS = -g -Wall
 FILES  = $(wildcard src/*.c)
@@ -9,8 +9,6 @@ compile:
 
 run:
 	./$(OUT)
-
-
 
 clean:
 	rm -rf $(OUT)
