@@ -1,4 +1,4 @@
-# Fetchix
+# Fetchnix
 
 - This is a very simple "Neofetch" - like hobby program which is written in C.
 - Currently will only supporting linux distros. There is a so much missing things.
