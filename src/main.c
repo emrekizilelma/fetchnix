@@ -6,7 +6,7 @@
 #include <win32.h>
 
 const void test_linux() {
-    printf("You are using linux! \n");
+    printf("You are using linux!\n\n");
 }
 
 const void test_BSD() {
