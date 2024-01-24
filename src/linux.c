@@ -10,8 +10,8 @@ const void get_linux_sys_info() {
 
     struct utsname buffer;
     char *p;
-    long ver[16];
-    int i=0;
+    long ver [16];
+    int i = 0;
 
     errno = 0;
 
@@ -27,7 +27,9 @@ const void get_linux_sys_info() {
     printf("Machine     = %s\n", buffer.machine);
 
 #ifdef _GNU_SOURCE
+
     printf("Domain Name = %s\n", buffer.domainname);
+
 #endif
 
     p = buffer.release;
@@ -36,6 +38,7 @@ const void get_linux_sys_info() {
         if (isdigit(*p)) {
             ver[i] = strtol(p, &p, 10);
             i++;
+
         } else {
             p++;
         }
