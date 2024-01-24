@@ -18,5 +18,6 @@ git clone https://github.com/emrekizilelma/fetchnix
 cd fetchnix
 make compile
 make run
+or
 make all (compile + run)
 ```
