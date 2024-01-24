@@ -23,6 +23,8 @@ const void test_win32() {
 
 int main() {
 
+    test_(); // Calling significant function from apple.h which is created on apple.c
+
      #ifdef __linux__
         test_linux();
         //get_linux_sys_info();
