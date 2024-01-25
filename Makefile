@@ -1,6 +1,6 @@
 CC     = gcc
 LIBS   = lib
-CFLAGS = -g -Wall
+CFLAGS = -g -Wall -pedantic -std=c17
 FILES  = $(wildcard src/*.c)
 OUT    = out
 
