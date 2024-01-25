@@ -12,7 +12,8 @@ int main() {
 
      #ifdef __linux__
 
-        //test_linux();
+        //test_linux(); its working
+        
         get_linux_sys_info();
     
     #elif BSD
