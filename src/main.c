@@ -1,4 +1,6 @@
-#include <stdio.h> // Standard C library
+/*
+
+include <stdio.h> // Standard C library
 
 #include <linux.h>
 #include <bsd.h>
@@ -14,7 +16,7 @@ int main() {
 
         //test_linux(); its working
         
-        get_linux_sys_info();
+        //get_linux_sys_info();
     
     #elif BSD
 
@@ -39,3 +41,4 @@ int main() {
 
     return 0;
 }
+*/
