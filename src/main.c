@@ -1,12 +1,12 @@
-/*
 
-include <stdio.h> // Standard C library
 
-#include <linux.h>
-#include <bsd.h>
-#include <apple.h>
-#include <win32.h>
-#include <test.h>
+#include <stdio.h>
+
+#include "../lib/linux.h"
+#include "../lib/bsd.h"
+#include "../lib/apple.h"
+#include "../lib/win32.h"
+#include "../lib/test.h"
 
 int main() {
 
@@ -14,24 +14,24 @@ int main() {
 
      #ifdef __linux__
 
-        //test_linux(); its working
+        test_linux();
         
-        //get_linux_sys_info();
+        get_linux_sys_info();
     
     #elif BSD
 
         test_BSD();
-        //get_bsd_sys_info();
+        get_bsd_sys_info();
 
     #elif __APPLE__
 
         test_apple();
-        //get_apple_sys_info();
+        get_apple_sys_info();
 
     #elif _WIN32
 
         test_win32();
-        //get_win32_sys_info();
+        get_win32_sys_info();
 
     #else
 
@@ -41,4 +41,3 @@ int main() {
 
     return 0;
 }
-*/
